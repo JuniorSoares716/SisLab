@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Horário Lab </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a class="navbar-brand" href="#">ReservaLab</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#"><strong> Home</strong>  <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#"><strong>Reservar lab</strong> <span class="sr-only"></span></a>
+                <a class="nav-item nav-link" href="#"><strong>Visualizar Horários</strong><span class="sr-only"></span></a>
+            </div>
+        </div>
+    </nav>
+    <main style="margin-top:7em;">
+        <div class="container">
+                <h1>Horários do lab {{lab->informatica}}</h1>
+                <hr>
+                <div class="col-md-12">
+                    <h3 class="text-center">Manhã</h3>
+                    <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Horários</th>
+                                <th scope="col">Segunda</th>
+                                <th scope="col">Terça</th>
+                                <th scope="col">Quarta</th>
+                                <th scope="col">Quinta</th>
+                                <th scope="col">Sexta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>7:20 a 8:20</td>
+                                <td>Júnior Soares (Disciplina)   </td>
+                                <td>Rafaella Soza (Disciplina)</td>
+                                <td><a href="#">Reservar </a></td>
+                                <td><a href="#">Reservar </a></td>
+                                <td><a href="#">Reservar </a></td>
+                            </tr>
+                            <tr>
+                                <td>8:20 a 9:20</td>
+                                <td>Professor tal (Disciplina)   </td>
+                                <td><a href="#">Reservar </a></td>
+                                <td><a href="#">Reservar </a></td>
+                                <td>Professor tal (Disciplina)</td>
+                                <td><a href="#">Reservar </a></td>
+                            </tr>
+                            <tr>
+                                <td>9:40 a 10:40</td>
+                                <td>Professor tal (Disciplina)   </td>
+                                <td><a href="#">Reservar </a></td>
+                                <td><a href="#">Reservar </a></td>
+                                <td>Professor tal (Disciplina)</td>
+                                <td><a href="#">Reservar </a></td>
+                            </tr>
+                            <tr>
+                                <td>10:40 a 11:40</td>
+                                <td>Professor tal (Disciplina)   </td>
+                                <td><a href="#">Reservar </a></td>
+                                <td><a href="#">Reservar </a></td>
+                                <td>Professor tal (Disciplina)</td>
+                                <td><a href="#">Reservar </a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>        
+        </div>
+           
+    </main>
+   
+</body>
+</html>
